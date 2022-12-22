@@ -1,0 +1,17 @@
+[22,27,16,2,18,6] -> Insertion Sort
+
+1.[2,27,16,22,18,6] -> En küçük olanı bulup (2) en baştaki ile yer değiştiriyoruz.(22)
+2.[2,6,16,22,18,27] -> 2 en küçük sayı olarak sabitlendiğinden ikinci sıraya bakıyoruz.6<27 olduğundan yer değiştiriyoruz.
+3.[2,6,16,18,22,27] -> 3.sırada gelen 16 sıralamada doğru yerde olduğundan işlem yapmıyoruz. 18<22 olduğundan yer değiştiriyoruz.
+4.[2,6,16,18,22,27] -> Sonraki işlemde 27 de son sırada geliyor ve doğru yerde olduğundan işlem yapılmıyor.
+
+Big-O: O(n^2)
+
+Bu duruma göre 18 sayısı Average Case durumundadır.
+
+[7,3,5,8,2,9,4,15,6] -> dizisinin Selection Sort'a göre ilk 4 adımı.
+
+1.[2,3,5,8,7,9,4,15,6] -> 1.adım'da en küçük sayı (2) bulunarak en baştaki ile yer değiştirildi. (2,7)
+2.[2,3,5,8,7,9,4,15,6] -> Bir sonraki en küçük eleman 3 doğru yerde olduğundan işlem yapılmadı.
+3.[2,3,4,8,7,9,5,15,6] -> Bir sonraki en küçük eleman 4<5 olduğundan 5 ile yer değiştirildi.
+4.[2,3,4,5,7,9,8,15,6] -> Bir sonraki en küçük eleman 5<8 olduğundan 8 ile yer değiştirildi.
