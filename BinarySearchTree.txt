@@ -1,0 +1,5 @@
+- Bir düğüm sağ ve sol olarak her iki tarafa da referans verebilir.
+- Sağ tarafta kendinden büyük, sol tarafta ise kendinden küçük elemanlar yer alır.
+- Eleman eklenmek istendiği zaman root' dan başlanır.
+- Dengeli oluşan bir yapıda logn kadar zamanda yeni eleman yerleştirilebilir.
+- Kötü dağılmış bir ağaçta Worst Case'i n tane sorgu yapmayı gerektirir.
